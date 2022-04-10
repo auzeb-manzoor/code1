@@ -43,7 +43,7 @@ with open('colours.csv','r') as Colour_file:
  #File Formatting, creation of dictionary
    open_dict[colour_keys]=name_keys
 print(open_dict)
-# example: print(rgbtohex((255, 255, 255)))
+# example: print(rgb2hex((255, 255, 255)))
 #assign hex code and then assign a corresponding hexdecimal to the integer.
 
 def rgb2hex(rgb):
