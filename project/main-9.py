@@ -46,6 +46,6 @@ print(open_dict)
 # example: print(rgbtohex((255, 255, 255)))
 #assign hex code and then assign a corresponding hexdecimal to the integer.
 
-def rgbtohex(rgb):
-  return '%02x%02x%02x' % rgb
+def rgb2hex(rgb):
+  return '#%02x%02x%02x' % rgb
   
