@@ -7,7 +7,7 @@ open_dict={}
 
 
 #creation of menu, The Main Porgram Loop
-
+#the print functions that denote "option X has been called" are placeholders
 w=1
 while w==1:
     print("[1]Load Colour Files")
